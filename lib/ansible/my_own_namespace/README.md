@@ -37,3 +37,5 @@
 <img width="2007" height="270" alt="image" src="https://github.com/user-attachments/assets/060a3f51-fa8d-4e2e-a5e2-b6c991fc2f2c" />
 
 
+Ссылка на архив - lib/ansible/my_own_namespace/yandex_cloud_elk/my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz
+
