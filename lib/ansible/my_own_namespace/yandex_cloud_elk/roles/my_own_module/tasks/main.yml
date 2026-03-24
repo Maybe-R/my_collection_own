@@ -1,0 +1,12 @@
+---
+- name: Create file with custom module
+  my_own_module:
+    path: "{{ file_path | default('./test1.txt') }}"
+    content: "{{ file_content | default('hi') }}"
+  register: result
+  changed_when: result.changed
+
+- name: Show result
+  debug:
+    var: result
+  when: debug_enabled | default(false)

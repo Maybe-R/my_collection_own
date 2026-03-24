@@ -1,0 +1,12 @@
+# test_role.yml
+---
+- name: Test role
+  hosts: localhost
+  gather_facts: no
+  
+  roles:
+    - role: my_own_module
+  vars:
+    file_path: ./role_test.txt
+    file_content: "Created by role!"
+    debug_enabled: true

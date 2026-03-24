@@ -1,0 +1,17 @@
+---
+galaxy_info:
+  author: FLID
+  description: Single task role
+  company: NETOLOGY
+  license: GPL-3.0
+  min_ansible_version: 2.9
+  platforms:
+    - name: Ubuntu
+      versions:
+        - all
+  galaxy_tags:
+    - file
+    - create
+    - custom_module
+
+dependencies: []
