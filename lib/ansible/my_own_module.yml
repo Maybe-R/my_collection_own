@@ -1,0 +1,15 @@
+---
+- name: Test my own module
+  hosts: localhost
+  gather_facts: no
+
+  tasks:
+    - name: Create file with custom module
+      my_own_module:
+        path: ./test1.txt
+        content: "hi"
+      register: result
+
+    - name: Show result
+      debug:
+        var: result
