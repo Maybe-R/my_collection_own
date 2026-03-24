@@ -28,6 +28,20 @@
 
 Шаг 11. Создайте playbook для использования этой role.
 
+Шаг 11. Создайте playbook для использования этой role.
+
+Шаг 12. Заполните всю документацию по collection, выложите в свой репозиторий, поставьте тег 1.0.0 на этот коммит.
+
+Ссылка - lib/ansible/my_own_namespace/yandex_cloud_elk/README.md
+
+Шаг 13. Создайте .tar.gz этой collection: ansible-galaxy collection build в корневой директории collection
+
+Ссылка на архив - lib/ansible/my_own_namespace/yandex_cloud_elk/my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz
+
+Шаг 14. Создайте ещё одну директорию любого наименования, перенесите туда single task playbook и архив c collection.
+
+Шаг 15. Установите collection из локального архива: ansible-galaxy collection install .tar.gz.
+
 Шаг 16. Запустите playbook, убедитесь, что он работает.
 
 <img width="2505" height="1384" alt="image" src="https://github.com/user-attachments/assets/8294aad9-0a3c-4dc5-bac6-f433a7cd100a" />
@@ -37,5 +51,5 @@
 <img width="2007" height="270" alt="image" src="https://github.com/user-attachments/assets/060a3f51-fa8d-4e2e-a5e2-b6c991fc2f2c" />
 
 
-Ссылка на архив - lib/ansible/my_own_namespace/yandex_cloud_elk/my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz
+
 
